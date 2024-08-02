@@ -78,8 +78,6 @@
   },
   "workbench.activityBar.location": "hidden",
   "workbench.editor.tabActionCloseVisibility": false,
-  "workbench.colorTheme": "PurpleSchool Theme",
-  "workbench.iconTheme": "symbols",
   "zenMode.fullScreen": false,
   "zenMode.hideLineNumbers": true,
   "zenMode.centerLayout": false,
