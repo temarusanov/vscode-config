@@ -134,10 +134,10 @@ body .monaco-workbench {
   transition: filter 200ms ease;
 }
 
-/* style(command-palette) add blur underlay */
-/* body:has(.quick-input-widget:not([style*="display: none;"])) .monaco-grid-view {
-  filter: blur(4px) brightness(70%) !important;
-} */
+/* style(command-palette) add blur underlay 
+body:has(.quick-input-widget:not([style*="display: none;"])) .monaco-grid-view {
+  filter: blur(var(--al-command-palette-blur-amount, 4px)) brightness(70%) !important;
+}*/
 
 /* style(command-palette) remove blur underlay when color theme selection */
 body:has(.quick-input-widget .monaco-list[aria-label*="Select Color Theme"]) .monaco-grid-view,
