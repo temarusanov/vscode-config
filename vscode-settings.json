@@ -32,7 +32,7 @@
   "files.insertFinalNewline": true,
   "security.workspace.trust.untrustedFiles": "newWindow",
   "terminal.integrated.fontFamily": "CaskaydiaCove Nerd Font Mono",
-  "scm.diffDecorations": "none",
+  "scm.diffDecorations": "gutter",
   "terminal.integrated.tabs.enabled": false,
   "terminal.integrated.fontSize": 12,
   "terminal.integrated.tabs.location": "left",
@@ -42,10 +42,10 @@
     "editorGroupHeader.tabsBackground": "#00000000",
     "sideBar.background": "#00000000",
     "sideBarSectionHeader.background": "#00000000",
-    "peekViewEditor.background": "#00000000",
-    "peekViewEditorGutter.background": "#00000000",
-    "peekViewTitle.background": "#00000000",
-    "peekViewResult.background": "#00000000",
+    //"peekViewEditor.background": "#00000000",
+    //"peekViewEditorGutter.background": "#00000000",
+    //"peekViewTitle.background": "#00000000",
+    //"peekViewResult.background": "#00000000",
     "tab.activeBackground": "#00000000",
     "tab.inactiveBackground": "#00000000",
     "statusBar.debuggingBackground": "#00000000",
@@ -77,7 +77,7 @@
     "height": 36,
     "fontSize": 12
   },
-  "apc.font.family": "CaskaydiaCove Nerd Font Mono",
+  //"apc.font.family": "CaskaydiaCove Nerd Font Mono",
   "apc.electron": {
     "backgroundColor": "#00000000",
     "frame": false,
@@ -127,6 +127,6 @@
   "git.ignoreRebaseWarning": true,
   "git.confirmSync": false,
   "apc.stylesheet": {
-    "body": "--al-transparency-percent: 25%; --al-pane-split-color: rgba(255,255,255,0.025); --al-tab-height: 38px; --al-tab-y-offset: 7px;"
+    "body": "--al-transparency-percent: 0%; --al-pane-split-color: rgba(255,255,255,0.025); --al-tab-height: 38px; --al-tab-y-offset: 7px;"
   },
 }
