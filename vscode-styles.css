@@ -6,6 +6,7 @@
 }
 
 body .monaco-workbench {
+  --vscode-terminal-border: var(--al-pane-split-color);
   --vscode-tab-inactiveBackground: rgba(255, 255, 255, 0.05);
   --vscode-tab-activeBackground: var(
     --al-tab-activeBackground,
@@ -64,7 +65,7 @@ body .monaco-workbench {
 /** style(left-sidebar) adjust terminal padding and headers */
 .panel:has(.terminal-outer-container) .composite.title {
   visibility: hidden;
-  height: 25px;
+  height: 5px;
 }
 
 /** style(terminal) hide title in fullscreen */
